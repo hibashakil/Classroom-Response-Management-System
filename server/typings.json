@@ -1,0 +1,14 @@
+{
+  "globalDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160602151406",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160608083720",
+    "passport": "registry:dt/passport#0.2.0+20161013124703",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  },
+  "dependencies": {
+    "websocket": "registry:dt/websocket#0.0.0+20170217141817",
+    "ws": "registry:dt/ws#0.0.0+20170123022058"
+  }
+}

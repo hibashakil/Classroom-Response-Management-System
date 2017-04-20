@@ -1,0 +1,14 @@
+{
+  "globalDependencies": {
+    "bcrypt-nodejs": "registry:dt/bcrypt-nodejs#0.0.0+20160316155526",
+    "cookie-parser": "registry:dt/cookie-parser#1.3.4+20160316155526",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-session": "registry:dt/express-session#0.0.0+20160930124524",
+    "passport": "registry:dt/passport#0.2.0+20161013124703",
+    "passport-local": "registry:dt/passport-local#0.0.0+20160316155526",
+    "passport-local-mongoose": "registry:dt/passport-local-mongoose#4.0.0+20160914124712"
+  },
+  "dependencies": {
+    "ws": "registry:dt/ws#0.0.0+20170123022058"
+  }
+}

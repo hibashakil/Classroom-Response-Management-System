@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/5e867d03fe8b3151fad50bc73b4068845931b7b2/websocket/index.d.ts",
+    "raw": "registry:dt/websocket#0.0.0+20170217141817",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/5e867d03fe8b3151fad50bc73b4068845931b7b2/websocket/index.d.ts"
+  }
+}

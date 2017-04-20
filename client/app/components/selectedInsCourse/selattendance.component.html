@@ -1,0 +1,41 @@
+ <h3>Attendance Box</h3>
+<div>
+      <label class="col-sm-2 control-label">Attendance Number: </label>
+      <div class="col-sm-10">
+            <input (input)="num=$event.target.value" type="number" placeholder="0000" />
+            <button (click)="saveNumber()" class="btn btn-primary">Save</button>
+      </div>
+</div>
+ <h3>Attendance for January 2016</h3>
+            <datatable [dataset]= allAttendance [enableFilter]=true>
+                  <column [value]="'name'" [header]="'Student Name'"></column>
+                  <column [value]="'1'" [header]="'1    '"></column>
+                  <column [value]="'2'" [header]="'2'"></column>
+                  <column [value]="'3'" [header]="'3'"></column>
+                  <column [value]="'4'" [header]="'4'"></column>
+                  <column [value]="'5'" [header]="'5'"></column>
+                  <column [value]="'6'" [header]="'6'"></column>
+                  <column [value]="'7'" [header]="'7'"></column>
+                  <column [value]="'8'" [header]="'8'"></column>
+                  <column [value]="'9'" [header]="'9'"></column>
+                  <column [value]="'10'" [header]="'10'"></column>
+                  <column [value]="'11'" [header]="'11'"></column>
+                  <column [value]="'12'" [header]="'12'"></column>
+                  <column [value]="'13'" [header]="'13'"></column>
+                  <column [value]="'14'" [header]="'14'"></column>
+                  <column [value]="'15'" [header]="'15'"></column>
+                  <column [value]="'16'" [header]="'16'"></column>
+                  <column [value]="'17'" [header]="'17'"></column>
+                  <column [value]="'18'" [header]="'18'"></column>
+                  <column [value]="'19'" [header]="'19'"></column>
+                  <column [value]="'20'" [header]="'20'"></column>
+                  <column [value]="'21'" [header]="'21'"></column>
+                  <column [value]="'22'" [header]="'22'"></column>
+                  <column [value]="'23'" [header]="'23'"></column>
+                  <column [value]="'24'" [header]="'24'"></column>
+                  <column [value]="'25'" [header]="'25'"></column>
+                  <column [value]="'26'" [header]="'26'"></column>
+                  <column [value]="'27'" [header]="'27'"></column>
+                  <column [value]="'28'" [header]="'28'"></column>
+                  <column [value]="'29'" [header]="'29'"></column>
+                  <column [value]="'30'" [header]="'30'"></column>

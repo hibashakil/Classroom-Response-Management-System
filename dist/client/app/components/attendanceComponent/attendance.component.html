@@ -1,0 +1,38 @@
+<h1> Attendance is </h1>
+<div class="row">
+    <div class="col-md-3">
+        <div>
+            <span>{{classMsg}}</span>
+            <span>{{dateMsg}}</span>
+            <!--<table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Course ID</th>
+                        <th>Date</th>
+                        <th>Students Present</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let attendance of attendances" >
+                        <td>{{attendance.course_id}}</td>
+                        <td>{{attendance.date}}</td>
+                        <td>{{attendance.studentsPresent}}</td>
+                    </tr>
+                </tbody>
+            </table>-->
+        </div>
+    </div>
+</div>
+<div class="col-sm-offset-2 col-sm-10">
+        <button (click)="goBack()" class="btn btn-default">Back</button>
+</div>
+<!--<div class="row">
+    <div class="col-md-12">
+        <div *ngIf="selectedCourse">
+            <h2>
+                Selected Course: {{selectedCourse.courseName | uppercase}} 
+            </h2>
+            <button class="btn btn-primary" (click)="getAttendance()">Check Attendance</button>
+        </div>
+    </div>
+</div>-->
